@@ -1,11 +1,9 @@
-def reverse_each_word(string)
-  ### string to array sen
-  #collect and iterater over new elements
+ string= "This is a test sentence"
   
-  new_arr= string.split(",")
- new_arr.collect do 
-  |string|  string.reverse 
-  
-end 
-  
-end
+  def reverse_each_word(string)
+   
+    string.split(" ").collect do 
+      |word|  word.reverse 
+  end 
+ end
+ print reverse_each_word(string)
