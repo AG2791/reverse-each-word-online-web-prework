@@ -1,5 +1,4 @@
- string= "This is a test sentence"
-  
+
   def reverse_each_word(string)
    
     string.split(" ").collect do 
